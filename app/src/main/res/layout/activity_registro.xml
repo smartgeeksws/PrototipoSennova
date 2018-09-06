@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Registro"
         android:fontFamily="@font/brlsnl"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorLetra"
         android:gravity="center"
@@ -33,12 +33,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorLetra"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Nombre:"
             android:fontFamily="@font/brlsnl"/>
 
         <EditText
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/border_edit_text"
             android:textColor="@color/colorLetra"
@@ -60,12 +60,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorLetra"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Correo:"
             android:fontFamily="@font/brlsnl"/>
 
         <EditText
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/border_edit_text"
             android:textColor="@color/colorLetra"
@@ -88,12 +88,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorLetra"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Telefono:"
             android:fontFamily="@font/brlsnl"/>
 
         <EditText
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/border_edit_text"
             android:textColor="@color/colorLetra"
@@ -115,12 +115,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorLetra"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Contraseña:"
             android:fontFamily="@font/brlsnl"/>
 
         <EditText
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/border_edit_text"
             android:textColor="@color/colorLetra"
@@ -134,7 +134,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linear5"
         android:layout_below="@id/linear4"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="30dp"
         android:orientation="vertical">
 
@@ -142,13 +142,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorLetra"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Ocupacion:"
             android:fontFamily="@font/brlsnl"/>
 
         <android.support.v7.widget.AppCompatSpinner
-            android:layout_width="350dp"
-            android:layout_height="30dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/border_edit_text"
             android:id="@+id/spOcupacion">
 
@@ -161,7 +161,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linear6"
         android:layout_below="@id/linear5"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="30dp"
         android:orientation="vertical">
 
@@ -169,7 +169,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorLetra"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Sexo:"
             android:fontFamily="@font/brlsnl"/>
 
@@ -183,7 +183,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorLetra"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:text="Masculino:"
                 android:fontFamily="@font/brlsnl"/>
 
@@ -197,7 +197,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorLetra"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:text="Femenino:"
                 android:fontFamily="@font/brlsnl"
                 android:layout_marginLeft="60dp"/>
