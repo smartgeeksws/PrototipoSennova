@@ -134,17 +134,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/linear5"
         android:layout_below="@id/linear4"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="30dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorLetra"
-            android:textSize="15sp"
-            android:text="Ocupacion:"
-            android:fontFamily="@font/brlsnl"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp">
 
         <android.support.v7.widget.AppCompatSpinner
             android:layout_width="300dp"
